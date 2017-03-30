@@ -1,5 +1,8 @@
 configuration: Debug
 platform: Any CPU
 
+before_build:
+  - nuget restore
+
 test_script:
   - test.bat
