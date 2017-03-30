@@ -1,9 +1,10 @@
-﻿using System;
-using NUnit.Framework;
+﻿using NUnit.Framework;
+using System;
 
 namespace SetUpFixtureTests.Foo
 {
     [TestFixture]
+    [Category(NamespaceSetUpFixture.Key)]
     public class Fixture2
     {
 

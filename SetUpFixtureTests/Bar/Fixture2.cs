@@ -4,6 +4,7 @@ using NUnit.Framework;
 namespace SetUpFixtureTests.Bar
 {
     [TestFixture]
+    [Category(NamespaceSetUpFixture.Key)]
     public class Fixture2
     {
 
