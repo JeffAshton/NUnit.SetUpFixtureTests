@@ -1,2 +1,5 @@
+configuration: Debug
+platform: Any CPU
+
 test_script:
   - test.bat
